@@ -1,0 +1,108 @@
+/* Fontes e Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.card-image {
+    position: relative;
+}
+
+.card-image img {
+    width: 100%;
+    display: block;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h2 {
+    font-size: 22px;
+    color: #FF6600;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.card-content p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.card-actions {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.button {
+    background-color: #25D366;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #1da851;
+}
+
+.button-telegram {
+    background-color: #0088cc;
+}
+
+.button-telegram:hover {
+    background-color: #006699;
+}
+
+@media (max-width: 500px) {
+    .card-content h2 {
+        font-size: 18px;
+    }
+
+    .card-content p {
+        font-size: 14px;
+    }
+
+    .button {
+        font-size: 14px;
+        padding: 12px;
+    }
+}
